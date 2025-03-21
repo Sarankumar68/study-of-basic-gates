@@ -68,7 +68,7 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
 
  Developed by:saran kumar S 
  RegisterNumber: 212224050043
-
+ ```
 module exl (a, b, c, d, e, x,y,z);
 input a,b;
 output c,d,e,x,y,z;
@@ -79,7 +79,7 @@ nand (x,b);
 nor(y,a,b);
 xnor (z,a,b);
 endmodule
-
+```
 
 
 
