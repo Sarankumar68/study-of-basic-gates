@@ -69,15 +69,16 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
  Developed by:saran kumar S 
  RegisterNumber: 212224050043
  ```
-module exl (a, b, c, d, e, x,y,z);
+module log_gat(a,b,c1,c2,c3,c4,c5,c6,c7);
 input a,b;
-output c,d,e,x,y,z;
-and (c,a,b);
-or (d,a,b);
-or(e,anb);
-nand (x,b);
-nor(y,a,b);
-xnor (z,a,b);
+output c1,c2,c3,c4,c5,c6,c7;
+not f1(c1,a);
+and f2(c2,a,b);
+or f3(c3,a,b);
+nand f4(c4,a,b);
+nor f5(c5,a,b);
+xor f6(c6,a,b);
+xnor f7(c7,a,b);
 endmodule
 ```
 
@@ -85,13 +86,15 @@ endmodule
 
  
 **Logic symbol & Truthtable**
+![image](https://github.com/user-attachments/assets/c13b37b1-532a-45d1-a58e-7172aaea376f)
 
 **RTL realization Output:** 
+![image](https://github.com/user-attachments/assets/b437705d-66c0-4bf2-be98-0b54b5327542)
 
-![Screenshot 2025-03-21 213145](https://github.com/user-attachments/assets/55a86ad6-0091-4ad2-80bb-356d738ecf4c)
 
-**RTL**
+**time waveform**
+![Screenshot 2024-10-07 171627](https://github.com/user-attachments/assets/dead4bf7-3efd-4a65-9bb4-06a4e3c498f0)
 
-**Result:**
+**Result: thus the basic logic gates are studied and their truth tables are verified**
 
 
